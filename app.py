@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 from flask_marshmallow import Marshmallow
 from marshmallow import fields, ValidationError
      
-cnx = mysql.connector.connect(user='root', host='127.0.0.1', database='fitness_center', password='passW11!')
+cnx = mysql.connector.connect(user='root', host='127.0.0.1', database='fitness_center', password='!')
 app = Flask(__name__)
 ma = Marshmallow(app)
 
